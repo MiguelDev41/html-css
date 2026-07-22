@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #F2E6D8;
+        }
+
+        header {
+            background-color: #BF9B7A;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: #555934;
+            padding: 3px;
+            box-shadow: 3px 4px 11px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: #BF9B7A;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: #f5cda9;
+            padding: 1px;
+            text-align: justify;
+            text-indent: 20px;
+            border-radius: 8px;
+        }
+
+        article > aside {
+            background-color:#555934;
+            color: white;
+        }
+
+        footer {
+            background-color: #593E2E;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sbre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque explicabo nostrum harum vero nisi quia. Saepe eum atque consequatur porro commodi! Inventore provident adipisci obcaecati odio iste, molestias deleniti fugit.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Miguel Peixoto Borges</p>
+    </footer>
+</body>
+</html>

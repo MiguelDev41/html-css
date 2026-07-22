@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2E6D8;
+}
+
+.tema {
+    color: #8C5B3E;
+}
+
+#principal {
+    color: #593E2E;
+    text-align: center;
+    background-color: #BF9B7A;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sub{
+    color:#555934;
+}
+
+p {
+    text-align: justify;
+}
