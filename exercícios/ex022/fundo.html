@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fudno</title>
+    <style>
+
+        body {
+            background-image: url('imagens/wallpaper001.jpg');
+        }
+        .quadrado {
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            background-color: lightgray;
+            border-radius: 10px;
+        }
+
+        #q1{
+            background-color: #87ceeb;
+        }
+
+        #q2{
+            background-image: linear-gradient(to bottom, yellow, orange, red);
+        }
+
+        #q3 {
+            background-image: url('imagens/pattern003.png');
+        }
+
+        .container {
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+            background-image: url('imagens/pattern001.png');
+            position: relative;
+            border-radius: 10px;
+        }
+
+        .filho1 {
+            width: 150px;
+            height: 150px;
+            border: 2px solid red;
+            background-image: url('imagens/pattern002.png');
+            border-radius: 10px;
+        }
+
+        .filho2 {
+            width: 150px;
+            height: 150px;
+            border: 2px solid red;
+            background-image:url('imagens/pattern003.png');
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            border-radius: 10px;
+        }
+        .filho3 {
+            width: 150px;
+            height: 150px;
+            border: 2px solid red;
+            background-image:url('imagens/wallpaper004.jpg');
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius: 10px;
+        }
+
+        .filho4 {
+            width: 150px;
+            height: 150px;
+            border: 2px solid red;
+            background-image:url('imagens/wallpaper006.jpg');
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+
+    <div class="container">
+        <div class="filho1"></div>
+        <div class="filho2"></div>
+        <div class="filho3"></div>
+        <div class="filho4"></div>
+    </div>
+</body>
+</html>
